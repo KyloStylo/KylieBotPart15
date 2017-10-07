@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{15C533F2-8443-4B92-8EDA-B93E2C8C4628}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMApi", "..\CRMApi\CRMApi.csproj", "{98F33129-88E7-4F8D-A981-19F8D4D24EFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search.Azure", "..\Search.Azure\Search.Azure.csproj", "{2734B7AA-2144-41A8-9423-225A544438B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search.Contracts", "..\Search.Contracts\Search.Contracts.csproj", "{FF10CD6A-2BE1-4520-A01F-769C396906CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search.Dialogs", "..\Search.Dialogs\Search.Dialogs.csproj", "{C3583B53-4097-44D5-8537-2A8354B32654}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KylieBot", "KylieBot.csproj", "{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure Search", "Azure Search", "{4D820025-6474-425A-B6F5-2240C464E37E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98F33129-88E7-4F8D-A981-19F8D4D24EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F33129-88E7-4F8D-A981-19F8D4D24EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F33129-88E7-4F8D-A981-19F8D4D24EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F33129-88E7-4F8D-A981-19F8D4D24EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2734B7AA-2144-41A8-9423-225A544438B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2734B7AA-2144-41A8-9423-225A544438B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2734B7AA-2144-41A8-9423-225A544438B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2734B7AA-2144-41A8-9423-225A544438B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF10CD6A-2BE1-4520-A01F-769C396906CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF10CD6A-2BE1-4520-A01F-769C396906CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF10CD6A-2BE1-4520-A01F-769C396906CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF10CD6A-2BE1-4520-A01F-769C396906CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3583B53-4097-44D5-8537-2A8354B32654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3583B53-4097-44D5-8537-2A8354B32654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3583B53-4097-44D5-8537-2A8354B32654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3583B53-4097-44D5-8537-2A8354B32654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98F33129-88E7-4F8D-A981-19F8D4D24EFA} = {15C533F2-8443-4B92-8EDA-B93E2C8C4628}
+		{2734B7AA-2144-41A8-9423-225A544438B8} = {4D820025-6474-425A-B6F5-2240C464E37E}
+		{FF10CD6A-2BE1-4520-A01F-769C396906CB} = {4D820025-6474-425A-B6F5-2240C464E37E}
+		{C3583B53-4097-44D5-8537-2A8354B32654} = {4D820025-6474-425A-B6F5-2240C464E37E}
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4} = {15C533F2-8443-4B92-8EDA-B93E2C8C4628}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BE6F20E-F72C-49EB-BDEE-44E17D42B6C3}
+	EndGlobalSection
+EndGlobal
